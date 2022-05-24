@@ -1,3 +1,4 @@
+package application;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -38,6 +39,7 @@ public class NewWindow {
 	            		label.setBounds(150,260,360,50);
 	            		countDown.setText("");
 	            		timer.stop();
+	            		
 	            	}
 	            	else {
 	            		countDown.setText(Integer.toString(counter));
